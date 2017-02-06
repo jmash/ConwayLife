@@ -1,0 +1,87 @@
+/*
+ * conwaylife.css
+ * Copyright (C) 2016 
+ *
+ * Distributed under terms of the MIT license.
+ */
+
+body {
+	background: white;
+	color: black;
+    margin:0;
+}
+
+#lifeBoard {
+    border-collapse: collapse;
+    user-drag: none; 
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    margin:auto;
+}
+
+#lifeBoard tr td {
+    height: 10px;
+    width: 10px;
+
+    border: solid black 1px;
+}
+
+.alive {
+    background: red;
+}
+
+.dead {
+    background: white;
+}
+
+#menu {
+    width:50%;
+    margin:auto;
+    background-color:grey;
+    padding:10px;
+}
+
+#buttonMenu {
+    position:relative;
+    display:inline-block;
+    width:50%;
+    margin:auto;
+    text-align:center;
+}
+
+#buttonMenu button {
+    margin-left:3px;
+}
+
+#brushMenu {
+    display:inline-block;
+    width:50%;
+    margin:auto;
+    text-align:center;
+}
+
+button {
+    outline:none;
+    color:white;
+    background-color:darkgrey;
+    border:none;
+    border-radius:4px;
+    text-shadow:0 1px 1px rgba(0,0,0,0.2);
+}
+
+#runButton {
+    width:40px;
+    height:40px;
+    background: rgb(28, 184, 65);
+}
+
+#otherOptionsMenu {
+    width:50%;
+    margin-top:10px;
+    text-align:center;
+}
+
+
